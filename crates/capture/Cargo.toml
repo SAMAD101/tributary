@@ -1,0 +1,21 @@
+[package]
+name = "capture"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CaptureSource trait + backends: pcap/pcapng files (gz ok), live libpcap, AF_XDP (linux)"
+
+[features]
+default = []
+libpcap = ["dep:pcap"]
+afxdp = ["dep:xsk-rs", "dep:libc"]
+
+[dependencies]
+pcap-parser = { workspace = true }
+flate2.workspace = true
+thiserror.workspace = true
+pcap = { version = "2.5", optional = true }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+xsk-rs = { version = "0.9", optional = true }
+libc = { version = "0.2", optional = true }

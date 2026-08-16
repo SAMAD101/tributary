@@ -1,0 +1,8 @@
+/target
+/data/
+/.venv/
+*.pcap
+*.pcap.gz
+!fixtures/*.pcap.gz
+*.tri
+/out/

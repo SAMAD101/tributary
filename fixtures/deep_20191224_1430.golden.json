@@ -1,0 +1,1886 @@
+{
+ "file": "deep_20191224_1430.pcap.gz",
+ "protocol": "DEEPv1.0",
+ "message_protocol_id": 32772,
+ "packets": 2000,
+ "messages": 10520,
+ "by_type": {
+  "5": 611,
+  "8": 998,
+  "S": 1,
+  "E": 8875,
+  "T": 31,
+  "X": 3,
+  "P": 1
+ },
+ "first_seq": 57244,
+ "last_seq": 67763,
+ "seq_contiguous": true,
+ "fnv1a64": 5768400901004553920,
+ "sample": [
+  {
+   "seq": 57244,
+   "type": "5",
+   "symbol": "VTEB",
+   "ts_s": 1577197800,
+   "size": 100,
+   "price": 535100,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57245,
+   "type": "5",
+   "symbol": "KHC",
+   "ts_s": 1577197800,
+   "size": 400,
+   "price": 320200,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57246,
+   "type": "8",
+   "symbol": "CMCSA",
+   "ts_s": 1577197800,
+   "size": 800,
+   "price": 441000,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57247,
+   "type": "8",
+   "symbol": "CMCSA",
+   "ts_s": 1577197800,
+   "size": 800,
+   "price": 440900,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57248,
+   "type": "8",
+   "symbol": "FCG",
+   "ts_s": 1577197800,
+   "size": 1800,
+   "price": 120800,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57249,
+   "type": "8",
+   "symbol": "FCG",
+   "ts_s": 1577197800,
+   "size": 1800,
+   "price": 120700,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57250,
+   "type": "5",
+   "symbol": "XME",
+   "ts_s": 1577197800,
+   "size": 1500,
+   "price": 290000,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57251,
+   "type": "5",
+   "symbol": "XME",
+   "ts_s": 1577197800,
+   "size": 1500,
+   "price": 289900,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57252,
+   "type": "5",
+   "symbol": "XME",
+   "ts_s": 1577197800,
+   "size": 0,
+   "price": 290300,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57253,
+   "type": "8",
+   "symbol": "AGG",
+   "ts_s": 1577197800,
+   "size": 400,
+   "price": 1120800,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57254,
+   "type": "S",
+   "symbol": "",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57255,
+   "type": "E",
+   "symbol": "ACST",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57256,
+   "type": "E",
+   "symbol": "CBO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57257,
+   "type": "E",
+   "symbol": "AAWW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57258,
+   "type": "E",
+   "symbol": "WPS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57259,
+   "type": "E",
+   "symbol": "ABR-B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57260,
+   "type": "E",
+   "symbol": "CBX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57261,
+   "type": "E",
+   "symbol": "AUTO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57262,
+   "type": "E",
+   "symbol": "AGNC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57263,
+   "type": "E",
+   "symbol": "AAPL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57264,
+   "type": "E",
+   "symbol": "AAME",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57265,
+   "type": "E",
+   "symbol": "ABCB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57266,
+   "type": "E",
+   "symbol": "ACAD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57267,
+   "type": "E",
+   "symbol": "A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57268,
+   "type": "E",
+   "symbol": "ACWI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57269,
+   "type": "E",
+   "symbol": "ABG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57270,
+   "type": "E",
+   "symbol": "ZBZX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57271,
+   "type": "E",
+   "symbol": "AGN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57272,
+   "type": "E",
+   "symbol": "WSTL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57273,
+   "type": "E",
+   "symbol": "ADM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57274,
+   "type": "E",
+   "symbol": "AHH",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57275,
+   "type": "E",
+   "symbol": "AAP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57276,
+   "type": "E",
+   "symbol": "AGD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57277,
+   "type": "E",
+   "symbol": "AADR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57278,
+   "type": "E",
+   "symbol": "SPGM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57279,
+   "type": "E",
+   "symbol": "ABM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57280,
+   "type": "E",
+   "symbol": "ARCB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57281,
+   "type": "E",
+   "symbol": "AB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57282,
+   "type": "E",
+   "symbol": "ABEV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57283,
+   "type": "E",
+   "symbol": "ADI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57284,
+   "type": "E",
+   "symbol": "ZJZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57285,
+   "type": "E",
+   "symbol": "ALFA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57286,
+   "type": "E",
+   "symbol": "ADBE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57287,
+   "type": "E",
+   "symbol": "AEG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57288,
+   "type": "E",
+   "symbol": "ABBV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57289,
+   "type": "E",
+   "symbol": "XSW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57290,
+   "type": "E",
+   "symbol": "ADRA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57291,
+   "type": "E",
+   "symbol": "ADRE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57292,
+   "type": "E",
+   "symbol": "ADRD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57293,
+   "type": "E",
+   "symbol": "ZTEST",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57294,
+   "type": "E",
+   "symbol": "GOLD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57295,
+   "type": "E",
+   "symbol": "AHT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57296,
+   "type": "E",
+   "symbol": "ABB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57297,
+   "type": "E",
+   "symbol": "ACGL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57298,
+   "type": "E",
+   "symbol": "ZVV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57299,
+   "type": "E",
+   "symbol": "AFL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57300,
+   "type": "E",
+   "symbol": "AMGN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57301,
+   "type": "E",
+   "symbol": "AMN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57302,
+   "type": "E",
+   "symbol": "ACU",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57303,
+   "type": "E",
+   "symbol": "AGZ",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57304,
+   "type": "E",
+   "symbol": "ACCO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57305,
+   "type": "E",
+   "symbol": "AGO-F",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57306,
+   "type": "E",
+   "symbol": "ADTN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57307,
+   "type": "E",
+   "symbol": "ACN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57308,
+   "type": "E",
+   "symbol": "AGRO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57309,
+   "type": "E",
+   "symbol": "ISEE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57310,
+   "type": "E",
+   "symbol": "AIW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57311,
+   "type": "E",
+   "symbol": "AEGN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57312,
+   "type": "E",
+   "symbol": "ABR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57313,
+   "type": "E",
+   "symbol": "ANH-B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57314,
+   "type": "E",
+   "symbol": "ACNB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57315,
+   "type": "E",
+   "symbol": "ABMD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57316,
+   "type": "E",
+   "symbol": "ZVZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57317,
+   "type": "E",
+   "symbol": "ACP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57318,
+   "type": "E",
+   "symbol": "ACTG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57319,
+   "type": "E",
+   "symbol": "ACLS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57320,
+   "type": "E",
+   "symbol": "AFB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57321,
+   "type": "5",
+   "symbol": "ADP",
+   "ts_s": 1577197800,
+   "size": 200,
+   "price": 1729900,
+   "flags": 1,
+   "side": "S"
+  },
+  {
+   "seq": 57322,
+   "type": "E",
+   "symbol": "ADP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57323,
+   "type": "E",
+   "symbol": "AMBO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57324,
+   "type": "E",
+   "symbol": "AGEN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57325,
+   "type": "E",
+   "symbol": "AIRI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57326,
+   "type": "E",
+   "symbol": "ZXZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57327,
+   "type": "E",
+   "symbol": "AGCO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57328,
+   "type": "E",
+   "symbol": "ADSK",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57329,
+   "type": "E",
+   "symbol": "AIG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57330,
+   "type": "E",
+   "symbol": "AI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57331,
+   "type": "E",
+   "symbol": "AEM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57332,
+   "type": "E",
+   "symbol": "ACWV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57333,
+   "type": "E",
+   "symbol": "RNG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57334,
+   "type": "E",
+   "symbol": "ALSN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57335,
+   "type": "E",
+   "symbol": "ACHC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57336,
+   "type": "E",
+   "symbol": "ARGD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57337,
+   "type": "E",
+   "symbol": "APT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57338,
+   "type": "E",
+   "symbol": "AG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57339,
+   "type": "E",
+   "symbol": "ADX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57340,
+   "type": "E",
+   "symbol": "AEIS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57341,
+   "type": "E",
+   "symbol": "ARGO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57342,
+   "type": "E",
+   "symbol": "ANSS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57343,
+   "type": "E",
+   "symbol": "ZWZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57344,
+   "type": "E",
+   "symbol": "CB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57345,
+   "type": "E",
+   "symbol": "ALL-A*",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57346,
+   "type": "E",
+   "symbol": "AEHR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57347,
+   "type": "E",
+   "symbol": "ZBZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57348,
+   "type": "E",
+   "symbol": "AHPI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57349,
+   "type": "E",
+   "symbol": "AIA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57350,
+   "type": "E",
+   "symbol": "ADRU",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57351,
+   "type": "E",
+   "symbol": "ADC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57352,
+   "type": "E",
+   "symbol": "ANIP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57353,
+   "type": "E",
+   "symbol": "AIN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57354,
+   "type": "E",
+   "symbol": "ACY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57355,
+   "type": "E",
+   "symbol": "KN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57356,
+   "type": "E",
+   "symbol": "AFK",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57357,
+   "type": "E",
+   "symbol": "AGM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57358,
+   "type": "E",
+   "symbol": "ASPN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57359,
+   "type": "E",
+   "symbol": "AMJ",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57360,
+   "type": "E",
+   "symbol": "ACRE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57361,
+   "type": "E",
+   "symbol": "AGO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57362,
+   "type": "E",
+   "symbol": "AGM.A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57363,
+   "type": "E",
+   "symbol": "AEP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57364,
+   "type": "E",
+   "symbol": "AFT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57365,
+   "type": "E",
+   "symbol": "ZAZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57366,
+   "type": "E",
+   "symbol": "AOR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57367,
+   "type": "E",
+   "symbol": "ALL-B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57368,
+   "type": "E",
+   "symbol": "AKG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57369,
+   "type": "E",
+   "symbol": "ZCZZT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57370,
+   "type": "E",
+   "symbol": "EIGI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57371,
+   "type": "E",
+   "symbol": "ACIW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57372,
+   "type": "E",
+   "symbol": "AFH",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57373,
+   "type": "E",
+   "symbol": "AKO.B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57374,
+   "type": "E",
+   "symbol": "AIR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57375,
+   "type": "E",
+   "symbol": "AES",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57376,
+   "type": "E",
+   "symbol": "AEE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57377,
+   "type": "E",
+   "symbol": "AEL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57378,
+   "type": "E",
+   "symbol": "ACRX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57379,
+   "type": "E",
+   "symbol": "AMKR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57380,
+   "type": "E",
+   "symbol": "AHT-D",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57381,
+   "type": "E",
+   "symbol": "AHC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57382,
+   "type": "E",
+   "symbol": "AGM-A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57383,
+   "type": "E",
+   "symbol": "ALK",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57384,
+   "type": "E",
+   "symbol": "AKR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57385,
+   "type": "E",
+   "symbol": "AIV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57386,
+   "type": "E",
+   "symbol": "ALIM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57387,
+   "type": "E",
+   "symbol": "ARCC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57388,
+   "type": "E",
+   "symbol": "NTEST.B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57389,
+   "type": "8",
+   "symbol": "ARLP",
+   "ts_s": 1577197800,
+   "size": 1000,
+   "price": 105700,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57390,
+   "type": "E",
+   "symbol": "ARLP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57391,
+   "type": "E",
+   "symbol": "AWR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57392,
+   "type": "E",
+   "symbol": "ALLY-A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57393,
+   "type": "E",
+   "symbol": "AKO.A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57394,
+   "type": "E",
+   "symbol": "NTEST",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57395,
+   "type": "E",
+   "symbol": "AKS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57396,
+   "type": "E",
+   "symbol": "AEZS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57397,
+   "type": "E",
+   "symbol": "AIRT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57398,
+   "type": "E",
+   "symbol": "ACWX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57399,
+   "type": "E",
+   "symbol": "ALLY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57400,
+   "type": "E",
+   "symbol": "ALE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57401,
+   "type": "E",
+   "symbol": "APTS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57402,
+   "type": "E",
+   "symbol": "XNCR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57403,
+   "type": "E",
+   "symbol": "AER",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57404,
+   "type": "E",
+   "symbol": "AKAM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57405,
+   "type": "E",
+   "symbol": "AMG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57406,
+   "type": "E",
+   "symbol": "ALGN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57407,
+   "type": "E",
+   "symbol": "AINV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57408,
+   "type": "E",
+   "symbol": "ARL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57409,
+   "type": "E",
+   "symbol": "NTEST.C",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57410,
+   "type": "E",
+   "symbol": "ALXN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57411,
+   "type": "E",
+   "symbol": "ARAY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57412,
+   "type": "E",
+   "symbol": "AMCX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57413,
+   "type": "E",
+   "symbol": "NTEST.A",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57414,
+   "type": "E",
+   "symbol": "AMBA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57415,
+   "type": "E",
+   "symbol": "AMSWA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57416,
+   "type": "E",
+   "symbol": "AGG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57417,
+   "type": "E",
+   "symbol": "ANGL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57418,
+   "type": "E",
+   "symbol": "AZPN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57419,
+   "type": "E",
+   "symbol": "AGZD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57420,
+   "type": "E",
+   "symbol": "AJG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57421,
+   "type": "E",
+   "symbol": "AMAG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57422,
+   "type": "E",
+   "symbol": "AFC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57423,
+   "type": "E",
+   "symbol": "ARR-B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57424,
+   "type": "E",
+   "symbol": "AMRB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57425,
+   "type": "E",
+   "symbol": "ARWR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57426,
+   "type": "E",
+   "symbol": "ATRO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57427,
+   "type": "E",
+   "symbol": "AL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57428,
+   "type": "E",
+   "symbol": "ALKS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57429,
+   "type": "E",
+   "symbol": "AKRX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57430,
+   "type": "E",
+   "symbol": "AFG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57431,
+   "type": "E",
+   "symbol": "ARR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57432,
+   "type": "E",
+   "symbol": "AMBC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57433,
+   "type": "T",
+   "symbol": "ZIEXT",
+   "ts_s": 1577197800,
+   "size": 2000,
+   "price": 10000,
+   "trade_id": 3339642,
+   "flags": 24
+  },
+  {
+   "seq": 57434,
+   "type": "E",
+   "symbol": "AMLP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57435,
+   "type": "E",
+   "symbol": "TGLS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57436,
+   "type": "T",
+   "symbol": "ZEXIT",
+   "ts_s": 1577197800,
+   "size": 2000,
+   "price": 100000,
+   "trade_id": 3339677,
+   "flags": 24
+  },
+  {
+   "seq": 57437,
+   "type": "E",
+   "symbol": "AMED",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57438,
+   "type": "E",
+   "symbol": "AGIO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57439,
+   "type": "E",
+   "symbol": "QUOT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57440,
+   "type": "E",
+   "symbol": "AMS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57441,
+   "type": "E",
+   "symbol": "AACG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57442,
+   "type": "E",
+   "symbol": "AVY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57443,
+   "type": "E",
+   "symbol": "ANGO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57444,
+   "type": "E",
+   "symbol": "BAC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57445,
+   "type": "E",
+   "symbol": "PYX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57446,
+   "type": "E",
+   "symbol": "ASNA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57447,
+   "type": "E",
+   "symbol": "ARGT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57448,
+   "type": "E",
+   "symbol": "AT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57449,
+   "type": "E",
+   "symbol": "RCM",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57450,
+   "type": "E",
+   "symbol": "AMRC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57451,
+   "type": "E",
+   "symbol": "ALB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57452,
+   "type": "E",
+   "symbol": "TREC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57453,
+   "type": "E",
+   "symbol": "PLAG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57454,
+   "type": "E",
+   "symbol": "AMTD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57455,
+   "type": "E",
+   "symbol": "AGO-E",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57456,
+   "type": "E",
+   "symbol": "AMOT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57457,
+   "type": "E",
+   "symbol": "MDWD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57458,
+   "type": "E",
+   "symbol": "BBY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57459,
+   "type": "E",
+   "symbol": "AMT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57460,
+   "type": "E",
+   "symbol": "ARKR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57461,
+   "type": "E",
+   "symbol": "AMZN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57462,
+   "type": "E",
+   "symbol": "AOSL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57463,
+   "type": "E",
+   "symbol": "APO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57464,
+   "type": "E",
+   "symbol": "BAC-L",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57465,
+   "type": "E",
+   "symbol": "AUY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57466,
+   "type": "E",
+   "symbol": "AZN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57467,
+   "type": "E",
+   "symbol": "EPAC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57468,
+   "type": "E",
+   "symbol": "ALCO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57469,
+   "type": "E",
+   "symbol": "KBSF",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57470,
+   "type": "E",
+   "symbol": "ALG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57471,
+   "type": "E",
+   "symbol": "SEEL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57472,
+   "type": "E",
+   "symbol": "TSLX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57473,
+   "type": "E",
+   "symbol": "AMP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57474,
+   "type": "E",
+   "symbol": "BDSI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57475,
+   "type": "E",
+   "symbol": "AIT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57476,
+   "type": "E",
+   "symbol": "JAN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57477,
+   "type": "E",
+   "symbol": "AGO-B",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57478,
+   "type": "E",
+   "symbol": "AMRN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57479,
+   "type": "E",
+   "symbol": "AUMN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57480,
+   "type": "8",
+   "symbol": "ANDE",
+   "ts_s": 1577197800,
+   "size": 1000,
+   "price": 238200,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57481,
+   "type": "E",
+   "symbol": "ANDE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57482,
+   "type": "E",
+   "symbol": "AVD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57483,
+   "type": "E",
+   "symbol": "ASYS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57484,
+   "type": "E",
+   "symbol": "AWX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57485,
+   "type": "E",
+   "symbol": "IRCP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57486,
+   "type": "E",
+   "symbol": "ASTE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57487,
+   "type": "E",
+   "symbol": "WMS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57488,
+   "type": "E",
+   "symbol": "BIT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57489,
+   "type": "E",
+   "symbol": "AVAV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57490,
+   "type": "E",
+   "symbol": "BBL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57491,
+   "type": "E",
+   "symbol": "VER",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57492,
+   "type": "E",
+   "symbol": "ARTW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57493,
+   "type": "E",
+   "symbol": "ALV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57494,
+   "type": "E",
+   "symbol": "ASRV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57495,
+   "type": "E",
+   "symbol": "BANR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57496,
+   "type": "E",
+   "symbol": "AMPE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57497,
+   "type": "E",
+   "symbol": "ALSK",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57498,
+   "type": "E",
+   "symbol": "AIZ",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57499,
+   "type": "E",
+   "symbol": "ALL",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57500,
+   "type": "E",
+   "symbol": "AVID",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57501,
+   "type": "E",
+   "symbol": "AMRS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57502,
+   "type": "E",
+   "symbol": "AVX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57503,
+   "type": "E",
+   "symbol": "ANF",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57504,
+   "type": "E",
+   "symbol": "AZZ",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57505,
+   "type": "E",
+   "symbol": "ARE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57506,
+   "type": "E",
+   "symbol": "BIV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57507,
+   "type": "E",
+   "symbol": "BGT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57508,
+   "type": "E",
+   "symbol": "AMOV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57509,
+   "type": "E",
+   "symbol": "TFC-G",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57510,
+   "type": "E",
+   "symbol": "ATNI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57511,
+   "type": "E",
+   "symbol": "ARW",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57512,
+   "type": "E",
+   "symbol": "BC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57513,
+   "type": "E",
+   "symbol": "INPX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57514,
+   "type": "E",
+   "symbol": "AMSC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57515,
+   "type": "E",
+   "symbol": "ALLT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57516,
+   "type": "E",
+   "symbol": "ATO",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57517,
+   "type": "E",
+   "symbol": "ASR",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57518,
+   "type": "E",
+   "symbol": "BPOP",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57519,
+   "type": "E",
+   "symbol": "AMAT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57520,
+   "type": "8",
+   "symbol": "ATOS",
+   "ts_s": 1577197800,
+   "size": 500,
+   "price": 15600,
+   "flags": 1,
+   "side": "B"
+  },
+  {
+   "seq": 57521,
+   "type": "E",
+   "symbol": "ATOS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57522,
+   "type": "E",
+   "symbol": "ALGT",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57523,
+   "type": "E",
+   "symbol": "AOA",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57524,
+   "type": "E",
+   "symbol": "AWF",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57525,
+   "type": "E",
+   "symbol": "AOS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57526,
+   "type": "E",
+   "symbol": "APWC",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57527,
+   "type": "E",
+   "symbol": "ITCB",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57528,
+   "type": "E",
+   "symbol": "WCN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57529,
+   "type": "E",
+   "symbol": "ASFI",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57530,
+   "type": "E",
+   "symbol": "BSV",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57531,
+   "type": "E",
+   "symbol": "AUBN",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57532,
+   "type": "E",
+   "symbol": "AU",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57533,
+   "type": "E",
+   "symbol": "AMX",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57534,
+   "type": "E",
+   "symbol": "ALNY",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57535,
+   "type": "E",
+   "symbol": "BCE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57536,
+   "type": "E",
+   "symbol": "ATSG",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57537,
+   "type": "E",
+   "symbol": "AME",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57538,
+   "type": "E",
+   "symbol": "AXAS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57539,
+   "type": "E",
+   "symbol": "AOD",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57540,
+   "type": "E",
+   "symbol": "HOPE",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57541,
+   "type": "E",
+   "symbol": "AXS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57542,
+   "type": "E",
+   "symbol": "NTUS",
+   "ts_s": 1577197800
+  },
+  {
+   "seq": 57543,
+   "type": "E",
+   "symbol": "RF-B",
+   "ts_s": 1577197800
+  }
+ ]
+}

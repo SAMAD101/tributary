@@ -1,0 +1,15 @@
+[package]
+name = "tp-parse"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "IEX-TP v1.0 transport + DEEP 1.0 / TOPS 1.6 message parsing over borrowed byte slices"
+
+[dependencies]
+etherparse.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+capture.workspace = true
+serde.workspace = true
+serde_json.workspace = true
