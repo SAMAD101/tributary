@@ -1,12 +1,11 @@
 [workspace]
 resolver = "2"
-members = ["crates/*"]
+members = ["crates/*", "bins/*"]
 
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/samspicenet/tributary"
 
 [workspace.dependencies]
 tp-parse = { path = "crates/tp-parse" }
@@ -32,6 +31,7 @@ hdrhistogram = "7.6"
 core_affinity = "0.8"
 criterion = "0.8"
 zstd = "0.13"
+rtrb = "0.3"
 
 [profile.release]
 lto = "thin"

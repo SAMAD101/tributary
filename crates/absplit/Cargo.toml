@@ -1,0 +1,15 @@
+[package]
+name = "absplit"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Fan one IEX pcap into two sites (A/B) with independent seeded random loss; records ground truth"
+
+[dependencies]
+tp-parse.workspace = true
+capture.workspace = true
+gapdetect.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+serde.workspace = true
+serde_json.workspace = true

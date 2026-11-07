@@ -1,0 +1,10 @@
+[package]
+name = "metrics"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Per-core counters, throughput snapshots and latency histograms (hdrhistogram)"
+
+[dependencies]
+hdrhistogram.workspace = true
+serde.workspace = true

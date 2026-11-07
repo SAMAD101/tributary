@@ -49,3 +49,6 @@ pub trait CaptureSource {
         Ok(total)
     }
 }
+
+pub mod pcapwriter;
+pub use pcapwriter::PcapWriter;

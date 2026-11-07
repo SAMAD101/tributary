@@ -1,0 +1,25 @@
+[package]
+name = "tributary"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Market-data feed capture, gap detection and A/B arbitration CLI"
+
+[features]
+default = []
+libpcap = ["capture/libpcap"]
+afxdp = ["capture/afxdp"]
+
+[dependencies]
+tp-parse.workspace = true
+capture.workspace = true
+gapdetect.workspace = true
+absplit.workspace = true
+arbiter.workspace = true
+replay.workspace = true
+metrics.workspace = true
+store.workspace = true
+clap.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+serde.workspace = true

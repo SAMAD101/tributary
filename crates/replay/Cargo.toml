@@ -1,0 +1,14 @@
+[package]
+name = "replay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "In-memory, rate-controlled pcap replay + multi-core pipeline benchmark harness"
+
+[dependencies]
+tp-parse.workspace = true
+capture.workspace = true
+gapdetect.workspace = true
+metrics.workspace = true
+core_affinity.workspace = true
+serde.workspace = true

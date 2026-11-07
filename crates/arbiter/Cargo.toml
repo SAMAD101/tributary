@@ -1,0 +1,17 @@
+[package]
+name = "arbiter"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "A/B feed arbitration: merge two redundant IEX-TP streams by sequence, dedupe, emit one gap-free stream"
+
+[dependencies]
+tp-parse.workspace = true
+gapdetect.workspace = true
+capture.workspace = true
+serde.workspace = true
+rtrb.workspace = true
+
+[dev-dependencies]
+absplit.workspace = true
+serde_json.workspace = true

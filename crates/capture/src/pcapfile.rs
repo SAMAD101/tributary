@@ -11,7 +11,7 @@ use pcap_parser::{create_reader, Block, PcapBlockOwned, PcapError};
 use crate::{CaptureSource, Packet};
 
 pub struct PcapFile {
-    reader: Box<dyn PcapReaderIterator>,
+    reader: Box<dyn PcapReaderIterator + Send>,
     /// pcapng per-interface timestamp resolution → ns multiplier (index by if id).
     if_ts_mult: Vec<u64>,
     /// legacy pcap: 1000 for µs files, 1 for ns files
@@ -24,7 +24,10 @@ impl PcapFile {
         let path = path.as_ref();
         let f = File::open(path)?;
         let rd: Box<dyn Read + Send> = if path.extension().is_some_and(|e| e == "gz") {
-            Box::new(flate2::read::MultiGzDecoder::new(BufReader::with_capacity(1 << 20, f)))
+            Box::new(flate2::read::MultiGzDecoder::new(BufReader::with_capacity(
+                1 << 20,
+                f,
+            )))
         } else {
             Box::new(f)
         };
@@ -34,7 +37,12 @@ impl PcapFile {
     pub fn from_reader(rd: Box<dyn Read + Send>) -> io::Result<Self> {
         let reader = create_reader(1 << 22, BufReader::with_capacity(1 << 20, rd))
             .map_err(|e| io::Error::new(io::ErrorKind::InvalidData, format!("pcap open: {e:?}")))?;
-        Ok(Self { reader, if_ts_mult: Vec::new(), legacy_mult: 1000, packets: 0 })
+        Ok(Self {
+            reader,
+            if_ts_mult: Vec::new(),
+            legacy_mult: 1000,
+            packets: 0,
+        })
     }
 }
 
@@ -62,8 +70,12 @@ impl CaptureSource for PcapFile {
                 Ok((offset, block)) => {
                     match block {
                         PcapBlockOwned::Legacy(b) => {
-                            let ts = b.ts_sec as u64 * 1_000_000_000 + b.ts_usec as u64 * self.legacy_mult;
-                            sink(Packet { ts_ns: ts, data: b.data });
+                            let ts = b.ts_sec as u64 * 1_000_000_000
+                                + b.ts_usec as u64 * self.legacy_mult;
+                            sink(Packet {
+                                ts_ns: ts,
+                                data: b.data,
+                            });
                             n += 1;
                         }
                         PcapBlockOwned::LegacyHeader(h) => {
@@ -73,14 +85,24 @@ impl CaptureSource for PcapFile {
                             self.if_ts_mult.push(tsresol_to_ns_mult(&idb.options));
                         }
                         PcapBlockOwned::NG(Block::EnhancedPacket(epb)) => {
-                            let mult = self.if_ts_mult.get(epb.if_id as usize).copied().unwrap_or(1000);
+                            let mult = self
+                                .if_ts_mult
+                                .get(epb.if_id as usize)
+                                .copied()
+                                .unwrap_or(1000);
                             let raw = ((epb.ts_high as u64) << 32) | epb.ts_low as u64;
                             let ts = raw * mult;
-                            sink(Packet { ts_ns: ts, data: &epb.data[..epb.caplen as usize] });
+                            sink(Packet {
+                                ts_ns: ts,
+                                data: &epb.data[..epb.caplen as usize],
+                            });
                             n += 1;
                         }
                         PcapBlockOwned::NG(Block::SimplePacket(spb)) => {
-                            sink(Packet { ts_ns: 0, data: spb.data });
+                            sink(Packet {
+                                ts_ns: 0,
+                                data: spb.data,
+                            });
                             n += 1;
                         }
                         PcapBlockOwned::NG(_) => {}
@@ -92,9 +114,16 @@ impl CaptureSource for PcapFile {
                     return Ok(if n == 0 { None } else { Some(n) });
                 }
                 Err(PcapError::Incomplete(_)) => {
-                    self.reader.refill().map_err(|e| io::Error::new(io::ErrorKind::InvalidData, format!("pcap refill: {e:?}")))?;
+                    self.reader.refill().map_err(|e| {
+                        io::Error::new(io::ErrorKind::InvalidData, format!("pcap refill: {e:?}"))
+                    })?;
                 }
-                Err(e) => return Err(io::Error::new(io::ErrorKind::InvalidData, format!("pcap: {e:?}"))),
+                Err(e) => {
+                    return Err(io::Error::new(
+                        io::ErrorKind::InvalidData,
+                        format!("pcap: {e:?}"),
+                    ))
+                }
             }
         }
         self.packets += n as u64;

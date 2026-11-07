@@ -6,3 +6,4 @@
 !fixtures/*.pcap.gz
 *.tri
 /out/
+.DS_Store
